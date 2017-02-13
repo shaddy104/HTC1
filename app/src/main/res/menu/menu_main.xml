@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/sunday_school_button"
+        android:title="SUNDAY SCHOOL"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+    <item android:id="@+id/sundayservice_button"
+        android:title="SUNDAY SERVICE"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+    <item android:id="@+id/DeveloperBlog_button"
+        android:title="DEVELOPER BLOG"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+</menu>

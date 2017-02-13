@@ -1,0 +1,367 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shadrach.htc.logInPastorateComite"
+    android:background="@drawable/buttonbackground">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Presbyter-In-charge"
+            android:id="@+id/textView149"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Rev.A.C. Solomon Raj"
+            android:id="@+id/textView150"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView8"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="description"
+            android:id="@+id/textView172"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView9"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pastorate Committee Members"
+            android:id="@+id/textView173"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pastorate Secretary"
+            android:id="@+id/textView174"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mr.Mohan Das"
+            android:id="@+id/textView194"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9440651629"
+            android:id="@+id/textView175"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:autoLink="phone"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pastorate Treasurer"
+            android:id="@+id/textView176"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mr.P.Joseph Kishore"
+            android:id="@+id/textView195"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9885849567"
+            android:id="@+id/textView177"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:autoLink="phone"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pastorate Steward"
+            android:id="@+id/textView178"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dr.G.S.Gabriel"
+            android:id="@+id/textView196"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9347206068"
+            android:id="@+id/textView179"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:autoLink="phone"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pastorate Assistant Steward"
+            android:id="@+id/textView180"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mrs.LVN Susheelamma"
+            android:id="@+id/textView197"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9030695863"
+            android:id="@+id/textView181"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:autoLink="phone"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Pastorate Property Secretary"
+            android:id="@+id/textView182"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mr.S.Sudhakar"
+            android:id="@+id/textView198"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9849037726"
+            android:id="@+id/textView183"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:autoLink="phone"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mr.K.Karunakar"
+            android:id="@+id/textView184"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9573839773"
+            android:id="@+id/textView185"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:autoLink="phone"
+            android:clickable="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Mr.J.M.Sudhakar"
+            android:id="@+id/textView186"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="9849852658"
+            android:id="@+id/textView187"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:autoLink="phone"
+            android:clickable="true"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Bishop Commission Members"
+            android:id="@+id/textView199"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Mrs.Premalatha Vasanth"
+            android:id="@+id/textView200"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="9989235814"
+            android:id="@+id/textView201"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:autoLink="phone"
+            android:clickable="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Mrs.Salomi Bhaskar"
+            android:id="@+id/textView202"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="9848593253"
+            android:id="@+id/textView203"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:autoLink="phone"
+            android:clickable="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Mr.P.D.Victor Das"
+            android:id="@+id/textView204"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="9849182846"
+            android:id="@+id/textView205"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:autoLink="phone"
+            android:clickable="true"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Mr.B.Sunith Raj Mathew"
+            android:id="@+id/textView206"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="9703049739"
+            android:id="@+id/textView207"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:autoLink="phone"
+            android:clickable="true"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

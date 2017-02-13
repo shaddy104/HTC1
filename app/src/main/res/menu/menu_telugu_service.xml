@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shadrach.htc.telugu_service">
+    <item android:id="@+id/responsive_readings" android:title="Responsive Reading"
+        android:orderInCategory="1" app:showAsAction="never"/>
+
+    <item android:id="@+id/old_testament_lesson" android:title="Old Testament Lesson"
+        android:orderInCategory="2" app:showAsAction="never"/>
+
+    <item android:id="@+id/epistle_lesson" android:title="Epistle Lesson"
+        android:orderInCategory="3" app:showAsAction="never"/>
+
+    <item android:id="@+id/gospel_reading" android:title="Gospel Reading"
+        android:orderInCategory="4" app:showAsAction="never"/>
+</menu>

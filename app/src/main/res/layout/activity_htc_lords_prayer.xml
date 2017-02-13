@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layoutbackground"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shadrach.htc.htc_lords_prayer">
+
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Bigbutton.Button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text="AT THE CHURCH"
+        android:textSize="15sp"
+        android:onClick="OnClickAtTheChurch"/>
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/Bigbutton.Button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:text="BURIAL HYMN\'S"
+        android:textSize="15sp"
+        android:onClick="OnClickBurialHymn"/>
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/Bigbutton.Button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:text="AT THE CEMETRY"
+        android:textSize="15sp"
+        android:onClick="OnClickAtTheCemetry"/>
+
+    <Button
+        android:id="@+id/button26"
+        style="@style/Bigbutton.Button"
+        android:layout_above="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="AT THE HOME"
+        android:textSize="15sp"
+        android:onClick="OnClickAtTheHome"/>
+</RelativeLayout>

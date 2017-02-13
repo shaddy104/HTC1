@@ -1,0 +1,37 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shadrach.htc.an_exhortation"
+    android:background="@drawable/buttonbackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DEARLY beloved, it is right that we who would come to the Lord's Table should take to heart the mystery of this Sacrament. The mystery is this: that Christ truly gives unto us His body and blood as food and drink of evrlasting life. The Good Shepherd has laid down His life for the sheep; He Who was without guile has died for sinners, the Head for His members, the Bridegroom for His bride the Church; in obedience to the Father's Will and in infinite love to us, the High Priest has offered Himself as the perfect sacrifice. By His death He has done away with all that stood in the way of our fellowship with God the Father, that we may assuredly be His children, be upheld by His love, be guided by him all the days of our life, and rejoice in the hope of His glory. In the fellowship of His sufferings He calls us to crucify the old man with his lusts, and to bear trials and tribulations patiently, to the glory of His name. In the power of His resurrection He calls us to newness of life. In the fellowship of His Spirit He joins us together, and seeks to change us into His image. By the same Spirit He pours His love into our hearts, so that we may love one another, and our enemies for His sake. "
+            android:id="@+id/textView117"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\t\tIf any man will not lay this to heart, but is minded to continue in sin and unrighteoussness, let him not approach the Table of the Lord. Let a man examine himself and so let him eat of that bread and drink of that cup. The worthiness which the Lord requires from us is that we be truly sorry for our sins and find our joy and salvation in Him. For we come to this Supper not as righteous in ourselves, but trusting in the righteousness of Christ our Saviour. He invites us to partake of this Holy meal."
+            android:id="@+id/textView118"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

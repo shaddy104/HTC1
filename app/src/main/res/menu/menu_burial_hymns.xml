@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shadrach.htc.BurialHymns">
+    <item android:id="@+id/safe_in_the_arms" android:title="Safe in the arms"
+        android:orderInCategory="1" app:showAsAction="never" />
+    <item android:id="@+id/when_all_my_labours" android:title="When all my labours"
+        android:orderInCategory="2" app:showAsAction="never"/>
+    <item android:id="@+id/when_the_trumpet" android:title="When the trumpet"
+        android:orderInCategory="3" app:showAsAction="never"/>
+    <item android:id="@+id/abide_with_me" android:title="Abide with me"
+        android:orderInCategory="4" app:showAsAction="never"/>
+    <item android:id="@+id/rejoice_for" android:title="Rejoice for"
+        android:orderInCategory="5" app:showAsAction="never"/>
+    <item android:id="@+id/god_of_the_living" android:title="God of the living"
+        android:orderInCategory="6" app:showAsAction="never"/>
+    <item android:id="@+id/when_the_day" android:title="When the day"
+        android:orderInCategory="7" app:showAsAction="never"/>
+    <item android:id="@+id/now_the_labourers_task" android:title="Now the labourer\'s task"
+        android:orderInCategory="8" app:showAsAction="never"/>
+    <item android:id="@+id/safe_home_safe_home" android:title="Safe home,Safe home"
+        android:orderInCategory="9" app:showAsAction="never"/>
+    <item android:id="@+id/when_our_heads" android:title="When our heads"
+        android:orderInCategory="10" app:showAsAction="never"/>
+    <item android:id="@+id/jesus_lives" android:title="Jesus lives!"
+        android:orderInCategory="11" app:showAsAction="never"/>
+    <item android:id="@+id/rock_of_ages" android:title="Rock of Ages"
+        android:orderInCategory="12" app:showAsAction="never"/>
+    <item android:id="@+id/who_fathoms" android:title="Who fathoms"
+        android:orderInCategory="13" app:showAsAction="never"/>
+    <item android:id="@+id/there_is_a_land" android:title="There is a land"
+        android:orderInCategory="14" app:showAsAction="never"/>
+    <item android:id="@+id/for_ever_with_the_lord" android:title="For ever with the Lord"
+        android:orderInCategory="15" app:showAsAction="never"/>
+    <item android:id="@+id/the_saints_of_god" android:title="The Saints of God"
+        android:orderInCategory="16" app:showAsAction="never"/>
+    <item android:id="@+id/o_god_to_whom" android:title="O God, to whom"
+        android:orderInCategory="17" app:showAsAction="never"/>
+    <item android:id="@+id/for_all_the_saints" android:title="For all the saints"
+        android:orderInCategory="18" app:showAsAction="never"/>
+    <item android:id="@+id/what_are_these" android:title="What are these"
+        android:orderInCategory="19" app:showAsAction="never"/>
+    <item android:id="@+id/thou_gracious_god" android:title="Thou gracious God,"
+        android:orderInCategory="20" app:showAsAction="never"/>
+    <item android:id="@+id/o_god_our_help" android:title="O God, our help"
+        android:orderInCategory="21" app:showAsAction="never"/>
+    <item android:id="@+id/blessed_lord" android:title="Blessed Lord"
+        android:orderInCategory="22" app:showAsAction="never"/>
+    <item android:id="@+id/have_thine_own_way" android:title="Have Thine own way"
+        android:orderInCategory="23" app:showAsAction="never"/>
+
+</menu>

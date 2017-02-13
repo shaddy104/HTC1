@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shadrach.htc.telugu_service"
+    android:background="@drawable/layoutbackground">
+
+
+    <Button
+        style="@style/Bigbutton.Button"
+        android:text="దేవుడు మాట"
+        android:id="@+id/button35"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="145dp" />
+
+    <Button
+        style="@style/Bigbutton.Button"
+        android:text="నిసెన్ క్రీడ్"
+        android:id="@+id/button36"
+        android:layout_below="@+id/button35"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="OnClickTeluguNiceenCreed"/>
+
+    <Button
+        style="@style/Bigbutton.Button"
+        android:text="విశ్వాస సంగ్రహము"
+        android:id="@+id/button37"
+        android:layout_below="@+id/button36"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="OnClickTeluguApostlesCreed"/>
+
+    <Button
+        style="@style/Bigbutton.Button"
+        android:text="దేవుని ప్రార్థన"
+        android:id="@+id/button38"
+        android:layout_below="@+id/button37"
+        android:layout_centerHorizontal="true"
+        android:onClick="OnClickTeluguLordPrayer"/>
+</RelativeLayout>

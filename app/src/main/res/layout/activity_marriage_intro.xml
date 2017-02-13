@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shadrach.htc.marriageIntro"
+    android:foregroundGravity="center"
+    android:textAlignment="center"
+    android:background="@drawable/buttonbackground">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        >
+
+
+        <TextView
+            style="@style/Hints"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/MarriageIntro1"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:foregroundGravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/MarriageIntro2"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:foregroundGravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/MarriageIntro3"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:foregroundGravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Marriageintro4"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:foregroundGravity="center"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

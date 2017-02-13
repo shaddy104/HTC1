@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shadrach.htc.EnglishService"
+    android:background="@drawable/layoutbackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <Button
+            style="@style/Bigbutton.Button"
+            android:text="@string/englishServiceBtn16"
+            android:id="@+id/button16"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickThePreparationListener"/>
+
+        <Button
+            style="@style/Bigbutton.Button"
+            android:text="@string/englishServiceBtn17"
+            android:id="@+id/button17"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickTenCommandmentsListener"/>
+
+        <Button
+            style="@style/Bigbutton.Button"
+            android:text="@string/englishServiceBtn18"
+            android:id="@+id/button18"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickTheLawAndTheProphetsListener"/>
+
+        <Button
+            style="@style/Bigbutton.Button"
+            android:text="@string/englishServiceBtn19"
+            android:id="@+id/button19"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickWordOfGodListener"/>
+
+        <Button
+            style="@style/Bigbutton.Button"
+            android:text="@string/englishServiceBtn20"
+            android:id="@+id/button20"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickTheNiceneCreed"/>
+
+        <Button
+            style="@style/Bigbutton.Button"
+            android:text="@string/englishServiceBtn21"
+            android:id="@+id/button21"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickTheApostlesCreedListener"/>
+
+        <Button
+            style="@style/Bigbutton.Button"
+            android:text="@string/englishServiceBtn22"
+            android:id="@+id/button22"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickIntercessaryPrayersListener"/>
+
+        <Button
+            style="@style/Bigbutton.Button"
+            android:text="@string/englishServiceBtn23"
+            android:id="@+id/button23"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickSecondLitanyListener"/>
+
+        <Button
+            style="@style/Bigbutton.Button"
+            android:text="@string/englishServiceBtn24"
+            android:id="@+id/button24"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickAnExhortationListener"/>
+
+        <Button
+            style="@style/Bigbutton.Button"
+            android:text="@string/englishServiceBtn25"
+            android:id="@+id/button25"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="OnClickTheBreakingOfTheBreadListener"/>
+    </LinearLayout>
+
+
+</ScrollView>

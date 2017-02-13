@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shadrach.htc.the_second_litany"
+    android:background="@drawable/buttonbackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="For the peace that is from above, and for the salvation of our souls, let us pray to the Lord."
+            android:id="@+id/textView104"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lord, have mercy (and so after each bidding)."
+            android:id="@+id/textView105"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tFor the peace of the whole world, for the welfare of God's Holy Churches, and for the union of all, let us pray to the Lord\n*****"
+            android:id="@+id/textView106"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tFor our bishops and all other ministers, especially ........, our Moderator,and ...... our Bishop, the Moderator of the church of North India, and ....., the Metropolitan of the Mar Thoma Church that with a good heart and a pure conscience they may accomplish their ministry, let us pray to the Lord.\n*****"
+            android:id="@+id/textView107"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tFor the President of our Republic ....., the Prime Minister ......, the Governor of our State ......, the Chief Minister ......., and all those who serve in the Government, let us pray to the Lord.\n******"
+            android:id="@+id/textView108"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="For the sick, the suffering, the sorrowful, and the dying, let us pray to the Lord\n*****"
+            android:id="@+id/textView109"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tFor the poor, the hungry, orphans and widows, and them that suffer persecution, let us pray to the Lord.\n*****"
+            android:id="@+id/textView110"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tFor ourselves and all who confess the name of Christ, that we may show forth the excellencies of Him Who called us out of darkness into His marvellous Light, let us pray to the Lord.\n*****\n\t\t\tThat, with all His servants who have served Him here and are now at rest, we may enter into the fullness of His unending jy, let us pray to the Lord\n*****"
+            android:id="@+id/textView111"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Presbyter says:\n\t\t\tALMIGHTY God, the Fountain of all wisdom, Who knowest our necessities before we ask, and our ignorance in asking: We beseech Thee to have compassion upon our infirmities: those things, which for our unworthiness we dare not, and for our blindness we cannot ask, vouchsafe to give us, for the worthiness of Thy Son Jesus Christ our Lord.\nAMEN\n\t\t\t\t\t\t\t\t\t\t\t\t\t(or)\n\t\t\tALMIGHTY and everlasting God, by Whose Spirit the whole body of the Church is governed and sanctified: Receive our supplications and prayers, which we offer before Thee for all estates of men in Thy Holy Church, that every member of the same, in his vocation and ministry, may truly and godly serve Thee; through our Lord and Saviour Jesus Christ.\nAMEN"
+            android:id="@+id/textView112"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Hints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/The Presbyter then gives the First Benediction/"
+            android:id="@+id/textView113"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="THE Grace of the Lord Jesus Christ, and the Love of God, and the Fellowship of the Holy Spirit, be with you all.\nAMEN."
+            android:id="@+id/textView114"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Hints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tA hymn is sung, and the bread and wine for the Communion, together with the alms of the people, are brought forward and placed on the Table. Those who bear the offertory stand before the Table during the following prayer.\n\t\t\tAll standing, the presbyter says :"
+            android:id="@+id/textView115"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="HOLY Father, who through the blood of Thy dear Son hast consecrated for us a New and Living Way to Thy throne of Grace, we come to Thee through Him, unworthy as we are, and we humbly beseech Thee to accept and use us and these our gifts for Thy glory. All that is in heaven and earth is Thine, and of Thine own do we give to Thee.\nAmen"
+            android:id="@+id/textView116"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+</ScrollView>

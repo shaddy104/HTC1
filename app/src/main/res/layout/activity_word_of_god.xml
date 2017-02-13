@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shadrach.htc.word_of_god"
+    android:background="@drawable/layoutbackground">
+
+
+    <Button
+        style="@style/Bigbutton.Button"
+        android:text="RESPONSIVE READING"
+        android:id="@+id/button29"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="OnClickResponsiveReadingListener"/>
+
+    <Button
+        style="@style/Bigbutton.Button"
+        android:text="OLD TESTAMENT LESSON"
+        android:id="@+id/button30"
+        android:layout_below="@+id/button29"
+        android:layout_alignRight="@+id/button29"
+        android:layout_alignEnd="@+id/button29"
+        android:layout_marginBottom="20dp"
+        android:onClick="OnClickOldTestamentLesson"/>
+
+    <Button
+        style="@style/Bigbutton.Button"
+        android:text="EPISTLE LESSON"
+        android:id="@+id/button31"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button30"
+        android:layout_marginBottom="20dp"
+        android:onClick="OnClickEpistleLesson"/>
+
+    <Button
+        style="@style/Bigbutton.Button"
+        android:text="GOSPEL LESSON"
+        android:id="@+id/button32"
+        android:layout_below="@+id/button31"
+        android:layout_alignLeft="@+id/button31"
+        android:layout_alignStart="@+id/button31"
+        android:onClick="OnClickGospelLesson"/>
+</RelativeLayout>

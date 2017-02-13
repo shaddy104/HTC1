@@ -1,0 +1,290 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shadrach.htc.the_breaking_of_the_bread"
+    android:background="@drawable/buttonbackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="BEHOLD,how good and joyful a thing it is, brethren, to dwell together in unity.\t\t\t\t\t\tPs.133:1\n\t\t\tWe, who are many, are One bread, One body, for we all partake of the One bread.\t\t\t\t\t\t1 Cor.10:17"
+            android:id="@+id/textView119"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tI will offer in His dwelling an oblation with great gladness, I will sing and speak praises unto the Lord.\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPs. 27:6"
+            android:id="@+id/textView120"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/presbyter and people/\n\t\t\tBe present, be present, O Jesus, Thou good High Priest, as Thou wast in the midst of Thy disciples, and make Thyself known to us in the breaking of the bread, Who livest and reignest with the Father and the Holy Spirit, one God, world without end.\n Amen."
+            android:id="@+id/textView121"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nThe Lord be with you:"
+            android:id="@+id/textView122"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="And with Thy spirit."
+            android:id="@+id/textView123"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nLift up your hearts:"
+            android:id="@+id/textView124"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="We lift them up unto the Lord."
+            android:id="@+id/textView125"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nLet us give thanks unto our Lord God :"
+            android:id="@+id/textView126"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="It is meet and right so to do."
+            android:id="@+id/textView127"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\n\t\t\tIT is verily meet, right, and our bounden duty, that we should at all times, and in all places, give thanks unto Thee, O Lord, Holy Father, Almighty and Everlasting God;\n\t\t\tThrough Jesus Christ Thy Son our Lord, through Whom Thou didst create the heavens and the earth and all that in them is, and didst make man in Thine own image, and when he had fallen into sin didst redeem him to be the firstfruits of a new creation."
+            android:id="@+id/textView128"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tTherefore with angels and archangels and with all the company of heaven, we laud and magnify Thy  glorious name; evermore praising Thee, and saying, Holy, Holy, Holy, Lord God of hosts, heaven and earth are full of Thy glory. Glory be to Thee, O Lord Most High.\n\t\t\tBlessed be He that hath come and is to come in the Name of the Lord, Hosanna in the Highest."
+            android:id="@+id/textView129"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\ttruly Holy, truly blessed art Thou, O Heavenly Father, who of Thy tender love towards mankind didst give thine only Son Jesus Christ to take our nature upon Him and to suffer death upon the cross for our redemption; Who made there, by His one oblation of Himself once offered, a full, perfect, and sufficient sacrifice, oblation and satisfaction, for the sins of the whole world; and did institute, and in His Holy gospel command us to continue, a perpetual memory of that His precious death, until His coming again: Who, in the same night that he was betrayed, took bread, and when he had given thanks, He brake it, and gave it to His disciples saying, Take, eat, that is My Body which is given for you : do this in remembrance of Me. Likewise after supper He took the cup, and, when He had given thanks, He gave it to them, saying, Drink ye all of this; for this is My blood of the New Covenant, which is shed for you and for many for the remission of sins; do this, as oft as ye shall drink it, in remembrance of Me.\nAMEN."
+            android:id="@+id/textView130"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tThy death, O Lord, we commemorate, thy resurrection we confess, and Thy second coming we await. Glory be to Thee, O Christ."
+            android:id="@+id/textView131"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tWherefore, O Father, having in remembrance the precious death and passion, and glorious resurrection and ascension, of Thy Son our Lord, we Thy servants do this in remembrance of Him, as He hath commanded, until His coming again, giving thanks to Thee for the perfect redemption which Thou hast wrought for us in Him."
+            android:id="@+id/textView132"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tWe give thanks to Thee, we praise Thee, we glorify Thee, O Lord our God."
+            android:id="@+id/textView133"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tAnd we most humbly beseech Thee, O merciful Father to sanctify with Thy Holy Spirit us and these Thine own gifts of bread and wine, that the bread which we break may be the communion of the body of Christ, and the cup which we bless the communion of the blood of Christ. Grant that, being joined together in Him, we may all attain to the unity of the faith, and may grow up in all things unto Him Who is the Head, even Christ, our Lord, by Whom and with Whom, in the unity of the Holy Spirit, all honour and glory be unto Thee, O Father Almighty, world without end.\nAMEN."
+            android:id="@+id/textView134"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tAs our Saviour Christ hath commanded and taught us, we are bold to say :"
+            android:id="@+id/textView135"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\n\t\t\tOur Father, Who art in heaven, Hallowed be Thy name. Thy kingdom come; Thy will be done; In earth as it is in heaven. Give us this day our daily bread; And forgive us our trespasses, As we forgive them that trespass against us; And lead us not into temptation, But deliver us from evil. For thine is the kingdom, The power and the glory, For ever and ever.\n\t\t\t\t\t\t\t\t\t\t\t\t\tAMEN\n"
+            android:id="@+id/textView136"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="/after a space of silence/\n\t\t\tWe do not presume to come to this Thy Table, O merciful Lord, trusting in our own righteousness, but in Thy manifold and great mercies. We are not worthy so much as to gather up the crumbs under Thy Table. But Thou art the same Lord, Whose property is always to have mercy : Grant us therefore, gracious Lord, so to eat the Flesh of thy dear Son Jesus Christ, and to drink His Blood, that our sinful bodies and souls may be made clean by His Most precious Body and Blood, and that we may evermore dwell in Him, and He in us.\nAmen."
+            android:id="@+id/textView137"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tTHE bread which we break is it not a communion in the bodyof Christ?\t\t\t\t\t\t\t\t1 cor. 10:16\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t(or)\n\t\t\tTHE things of God for the people of God.\n\n\t\t\tTHE body of our Lord Jesus Christ, the Bread of life. The blood of our Lord Jesus Christ, the True vine."
+            android:id="@+id/textView138"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tO Lamb of God, that takest away the sin of the world, have mercy upon us.\n\t\t\tO Lamb of God, that takest away the sin of the world, have mercy upon us.\n\t\t\tO Lamb of God, that takest away the sin of the world, grant us Thy peace."
+            android:id="@+id/textView139"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t/after everyone have partaken/\n\t\t\tHAVING now by faith received the sacrament of the Body and the Blood of Christ, let us give thanks."
+            android:id="@+id/textView140"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Hints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tOne of the following prayers is said or sung by the presbyter alone, or by all together"
+            android:id="@+id/textView141"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="O ALMIGHTY God, our heavenly Father, Who hast accepted us as Thy children in Thy beloved Son Jesus Christ our Lord, and hast fed us with the spiritual food of his most presious Body and Blood, giving us the forgiveness of our sins and the promise of everrlasting life: We thank and praise Thee for these inestimable benefits, and we offer and present unto Thee ourselves, our souls and bodies, to be a Holy and living sacrifice, which is our reasonable service. Grant us grace not to be conformed to this world, but to be transformed by the renewing of our minds, that we may learn what is Thy good and perfect will, and so obey Thee here on earth, that we may at the last rejoice with all Thy saints in Thy heavenly kingdom; through Jesus Christ our Lord, Who liveth and reigneth with Thee and the Holy Spirit, one God, for ever.\n\n(or)\n\n"
+            android:id="@+id/textView142"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ALMIGHTY and everlasting God, we most heartily thank Thee, for that Thou dost vouchsafe to feed us, who have duly received these Holy mysteries, with the spiritual food of the most precious Body and Blood of Thy Son our Saviour Jesus Christ; and dost assure us thereby of Thy favour and goodness towards us; and that we are very members incorporate in the mystical body of Thy Son, which is the blessed company of all faithful people; and are also heirs through hope of Thine everlasting kingdom, by the merits of the most precious death and passion of Thy dear Son. And we most humbly beseech Thee, O heavenly Father, so to assist us with Thy grace, that we may continue in that Holy fellowship, and do all such good works as Thou hast prepared for us to walk in. And here we offer and present unto Thee ourselves, our souls and bodies, to be a reasonable, Holy, and living sacrifice unto Thee, through Jesus Christ our Lord, to Whom with Thee and the Holy Spirit be all honour and glory, world without end."
+            android:id="@+id/textView143"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tAmen. Blessing, and Glory, and Wisdom, and Thanksgiving, and Honour, and Power, and Might, be unto our God for ever and ever. Amen."
+            android:id="@+id/textView144"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Second Benediction\n\t\t\tThe peace of God, which passeth all understanding, keep your hearts and minds in the knowledge and love of God, and of His Son Jesus Christ our Lord : and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be amongst you and remain with you always.\nAmen."
+            android:id="@+id/textView145"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Hints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A hymn of praise and thanksgiving may be sung after the benediction."
+            android:id="@+id/textView146"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Hints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tIf the bread or wine set apart be insufficient, the presbyter, taking more, may say :"
+            android:id="@+id/textView147"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tOBEYING the command of our Lord Jesus Christ, we take this bread (wine) to be set apart for this Holy use, in the name of the Father and of the Son and of the Holy Spirit.\nAmen."
+            android:id="@+id/textView148"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

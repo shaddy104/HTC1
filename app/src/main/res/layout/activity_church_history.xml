@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buttonbackground"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shadrach.htc.church_history">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="History\n
+
+Construction of the church, in 1847, was personally funded by Queen Victoria, on land donated by the Nizam of Hyderabad. It was initially an Anglican church, and a place of worship for British army officers and other Indian Christian families.[1]The church was built by her Royal Highness Queen Victoria in the year 1847 out of her own purse.Following an Anglican tradition the church was the place of worship for the then lived British army officers and families.The land for this historic church was donated by the Nizam's Govt. when General Frazer was the resident of Hyderabad. The Interior of the church adorns the tablets of the loved ones of British Army Officers, died during their tenure in Hyderabad contingent. One can still see the original pews, which despite the passage of time have retained their sheen. The stained glass at the altar(erected in 1904), the pulpit and the bell are all in their original eloquence, reflecting an era gone by.There are 44 tablets adorning the church interior, erected by the loved ones of those who died.According to the records 21 regiments were stationed at Secunderabad during 1847-1947 and were a part of the worship. The Cemetery next door back dates to the 18th century, also buries the history and the memorial of then served British Officers and their loved ones. The oldest grave being of John Alexander died on 7th April 1851,a British Army Officer of Hyderabad Contingent. The Cemetery is active and still being used by the congregation to bury their dear ones."
+            android:id="@+id/textView170"
+            android:textColor="#020202"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\nArchitecture\n
+The Church is medium-sized, and in the Victorian Gothic style.[2] The stained glass windows are similar to those of country churches in England.[2] The pews in the church are original, as are the stained glass at the altar, the pulpit and the bell. Tablets on the walls commemorate the deaths of parishioners, especially British Army officers and their families. The adjacent cemetery contains graves dating from 1851.Built in classic European architecture,by a member of British Royal family adorns to itself a great history.The church then a place of worship for British Army officers and families, is now serving about 370 families covering roughly more than 15 localities and 6 villages. [1]\n\nPipe Organ\n\nThe greatest jewel adorning the church alters,The Pipe Organ, one can hear the magical sounds of nature every Sunday in the worship service.The Pipe Organ was built by Misquith .Co. Organ Builders a company from Madras.Erected by public subscription in May 1903,the pipe organ had been retaining its original melody and music.Consisting of Swell Organ,Great Organ and the Petals.The Pipe Organ has total of 392 pipes, 112 of those are wooden and rest of all lead pipes when built, the Bellows were pumped by human hands on the strike of a bell from the organist, now uses a 3HP 3 phase electric motor. Mohan SatyaRaj plays the Pipe Organ Instrument (roughly) since the last 25 years."
+            android:id="@+id/textView171"
+            android:textColor="#020202"
+            android:textSize="17sp" />
+
+        <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Queen's visit\n
+In 1983, on 20th November, Queen Elizabeth II visited the church[3] and celebrated her 36th wedding anniversary there, in a service led by Bishop Victor Premasagar[4] and his ministerial colleagues Rev. B.P. Sugandhar and Rev. G.J. Hamilton the then serving Pastor.Special invitaions and passes were printed;every seat was marked and reserved for the guests and the congregation inside the Church.The Queen along with her royal convoy and security leaves back a historic moment. Her visit to the Church was scheduled for almost 2 hours, during which she unveiled a Tablet to mark her visit. This is still intact inside the Church. She was seated on the very first bench opposite to the pulpit, while the message was being delivered by Rt.Rev.Dr.Victor Premsagar.Marking the Queen\'s visit and her grandmother\'s attachment to this historical Church, this Church is also referred as the Queen\'s Church."
+        android:id="@+id/textView169"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+            android:textColor="#020202"
+            android:textSize="17sp" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/textView168"
+            android:text="\nPRESBYTER INCHARGE TILL DATE\n
+
+    Rev. Lav David 1947-1950\n
+    Rev. S. Stephen 1950-1954\n
+    Rev. Kotilingam 1954-1955\n
+    Rev. W.G.Carblidge 1955-1956\n
+    Rev. Chinnaiah 1956-1964\n
+    Rev. P.R.Dharmaraj 1964-1966\n
+    Rev. P.A Muthaiah 1966-1969\n
+    Rev. T.Ashirvadam 1969-1972\n
+    Rev. B.D. Premsagar 1972-1974\n
+    Rev. E.P. Yesudas 1975\n
+    Rev. Simon 1975\n
+    Rev. P.Seva Prakashan 1976-1977\n
+    Rev. B. Eliezer 1977-1979\n
+    Rev. P.A. Muttaiah 1979-1980\n
+    Rev. P.Y. Luke 1980-1982\n
+    Rev. G.J. Hamilton 1982-1984\n
+    Rev. Ch.D. Sadanand 1984-1986\n
+    Rev. T.B.Prabhakar Rao 1986-1987\n
+    Rev. N.D.Paul Raj 1987-1990\n
+    Rev. Ch.D. Sadanand 1990-1994\n
+    Rev. D.Prasanna Kumar 1994\n
+    Rev. N.D. Paul Raj 1994-1997\n
+    Rev. P. Yesushankar 1997-2002\n
+    Rev. Ch. D. Sadanand 2002-2004\n
+    Rev. T. Danny Subodh 2004-2008\n
+    Rev. D. Prasanna Kumar 2008-2010\n
+    Rev. D. John Jonathan 2010-2012\n
+    Rev. Katta Zacheaqus 2012\n
+    Rev. A.C. Solomon Raj 2012-till date\n\n\n
+"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="17sp"
+            android:textColor="#020202" />
+    </LinearLayout>
+</ScrollView>

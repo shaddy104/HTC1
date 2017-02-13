@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shadrach.htc.the_law_and_the_prophets"
+    android:background="@drawable/buttonbackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Lawtxt72"
+            android:id="@+id/textView72"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Lawtxt73"
+            android:id="@+id/textView73"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Lawtxt74"
+            android:id="@+id/textView74"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Lawtxt75"
+            android:id="@+id/textView75"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Lawtxt76"
+            android:id="@+id/textView76"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Lawtxt77"
+            android:id="@+id/textView77"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Lawtxt78"
+            android:id="@+id/textView78"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Hints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Lawtxt79"
+            android:id="@+id/textView79"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+</ScrollView>

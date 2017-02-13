@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Minister">
+        <item name="android:textColor">#FFFF4444</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="Person">
+        <item name="android:textColor">#efefef</item>
+        <item name="android:background">#000000</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="EveryOne">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="Hints">
+        <item name="android:textColor">#006699</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Bigbutton">
+        <item name="android:background">@mipmap/buttonbackground</item>
+    </style>
+    <style name="Bigbutton.Button">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+</resources>

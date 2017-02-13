@@ -1,0 +1,127 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shadrach.htc.intercesssary_prayers"
+    android:background="@drawable/buttonbackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/Hints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\tAfter each petition(stars are placed to let you know its end of petition), The congregation needs to say "
+            android:id="@+id/textView92"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/EveryOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tHear us, we beseech Thee, O Lord"
+            android:id="@+id/textView93"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tALMIGHTY God, Who has't taught us to make prayers and supplication, and to give thanks, for all men; hear us when we pray: That it may please Thee to inspire continually the universal Church with the spirit of truth, unity, and concord:\n*****"
+            android:id="@+id/textView94"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tThat it may please Thee to grant that all they that do confess Thy Holy Name may agree in the truth of Thy Holy Word, and bear witness to it with courage and fidelity:\n*****"
+            android:id="@+id/textView95"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tThat it may please Thee to lead the nations in the paths of righteousness and peace:\n*****"
+            android:id="@+id/textView96"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="That it may please Thee to guide with Thy pure and peaceable wisdom those who bear authority in the affairs of men, especially the President of the Indian Republic ....... and those who rule over us; that we and all men may be godly and quietly governed:\n*****"
+            android:id="@+id/textView97"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="That it may please Thee to give grace to all Bishops, Presbyters, and Deacons, especially Thy servants......, our Moderator, and..... our Bishop, that by their life and doctrine they may set forth Thy true and living word, and rightly and duly administer Thy Holy Sacraments:\n*****"
+            android:id="@+id/textView98"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tThat it may please Thee to guide and prosper those who are labouring for the spread of Thy gospel among the nations, and to enlighten with Thy Spirit all places of education, learning, and healing:\n*****"
+            android:id="@+id/textView99"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tThat it may please Thee that through Thy heavenly benediction we may be saved from dearth and famine, and may with thankful hearts enjoy the fruits of the earth in their season:\n*****"
+            android:id="@+id/textView100"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tThat it may please Thee to give Thy heavenly grace to all Thy people in their several callings, and especially to this congregation here present; that, with meek heart and due reverence, they may hear, and receive, Thy Holy word; truly serving Thee in holiness and righteousness all the days of their life:\n*****"
+            android:id="@+id/textView101"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tThat it may please Thee of Thy goodness, O Lord, to comfort and succour all them, who in this transitory life are in trouble, sorrow, need, sickness, or any other adversity:\n*****"
+            android:id="@+id/textView102"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            style="@style/Minister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="\t\t\t\tAnd we praise Thee for all Thy servants departed this life in Thy faith and fear, beseeching Thee to give us grace that we may follow their good examples, and with them be made partakers of Thy heavenly Kingdom:"
+            android:id="@+id/textView103"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shadrach.htc" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/sun" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Special_events"
+            android:label="@string/title_activity_special_events"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".Sunday_Service"
+            android:label="@string/title_activity_sunday__service"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeMain" >
+        </activity>
+        <activity
+            android:name=".marriageService"
+            android:label="@string/title_activity_marriage_service"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".marriageIntro"
+            android:label="@string/title_activity_marriage_intro"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".TheMariage"
+            android:label="@string/title_activity_the_mariage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".MarriageThePrayer"
+            android:label="@string/title_activity_marriage_the_prayer"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".EnglishService"
+            android:label="@string/title_activity_english_service"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".EnglishThePreparation"
+            android:label="@string/title_activity_english_the_preparation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".the_ten_commandments"
+            android:label="@string/title_activity_the_ten_commandments"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".the_law_and_the_prophets"
+            android:label="@string/title_activity_the_law_and_the_prophets"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".word_of_god"
+            android:label="@string/title_activity_word_of_god"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".The_Nicene_creed"
+            android:label="@string/title_activity_the__nicene_creed"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".the_apostles_creed"
+            android:label="@string/title_activity_the_apostles_creed"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".intercesssary_prayers"
+            android:label="@string/title_activity_intercesssary_prayers"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".the_second_litany"
+            android:label="@string/title_activity_the_second_litany"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".an_exhortation"
+            android:label="@string/title_activity_an_exhortation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".the_breaking_of_the_bread"
+            android:label="@string/title_activity_the_breaking_of_the_bread"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".logInPastorateComite"
+            android:label="@string/title_activity_log_in_pastorate_comite"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".PastorateComitteMain"
+            android:label="@string/title_activity_pastorate_comitte_main"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".ChurchMembers1"
+            android:label="@string/title_activity_church_members1"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".YouthSplashActivity"
+            android:label="@string/title_activity_youth_splash"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".youth_main"
+            android:label="@string/title_activity_youth_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".youth_log_in"
+            android:label="@string/title_activity_youth_log_in"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".sunday_theme"
+            android:label="@string/title_activity_sunday_theme"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".responsive_reading"
+            android:label="@string/title_activity_responsive_reading"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".old_testament_lesson"
+            android:label="@string/title_activity_old_testament_lesson"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".epistle_lesson"
+            android:label="@string/title_activity_epistle_lesson"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".gospel_lesson"
+            android:label="@string/title_activity_gospel_lesson"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".htc_lords_prayer"
+            android:label="@string/title_activity_htc_lords_prayer"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".telugu_service"
+            android:label="@string/title_activity_telugu_service"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".developers_blog"
+            android:label="@string/title_activity_developers_blog"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".add_member_youth"
+            android:label="@string/title_activity_add_member_youth"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".youth_biblereads"
+            android:label="@string/title_activity_youth_biblereads"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".birthday_youth"
+            android:label="@string/title_activity_birthday_youth"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".music_youth"
+            android:label="@string/title_activity_music_youth"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".youth_members"
+            android:label="@string/title_activity_youth_members"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".holy_trinity_church"
+            android:label="@string/title_activity_holy_trinity_church"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".church_history"
+            android:label="@string/title_activity_church_history"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".youth_leader"
+            android:label="@string/title_activity_youth_leader"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BurialAtHome"
+            android:label="@string/title_activity_burial_at_home" >
+        </activity>
+        <activity
+            android:name=".BurialHymns"
+            android:label="@string/title_activity_burial_hymns" >
+        </activity>
+        <activity
+            android:name=".BurialAtChurch"
+            android:label="@string/title_activity_burial_at_church" >
+        </activity>
+        <activity
+            android:name=".BurialAtCemetry"
+            android:label="@string/title_activity_burial_at_cemetry" >
+        </activity>
+        <activity
+            android:name=".TeluguNiceneCreed"
+            android:label="@string/title_activity_telugu_nicene_creed" >
+        </activity>
+        <activity
+            android:name=".TeluguApostlesCreed"
+            android:label="@string/title_activity_telugu_apostles_creed" >
+        </activity>
+        <activity
+            android:name=".TeluguLordPrayer"
+            android:label="@string/title_activity_telugu_lord_prayer" >
+        </activity>
+    </application>
+
+</manifest>

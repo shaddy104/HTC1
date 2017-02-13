@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    tools:context="com.example.shadrach.htc.Sunday_Service"
+    android:background="@drawable/sundayservice">
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sundayServiceBtn1"
+        android:id="@+id/button12"
+        android:onClick="OnClickThemeListener"
+        android:background="#95b8ff"
+        android:layout_below="@+id/button15"
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#95b8ff"
+        android:text="@string/sundayServiceBtn2"
+        android:id="@+id/button13"
+        android:onClick="OnClickEnglishServiceListener"
+        android:layout_above="@+id/button14"
+        android:layout_alignLeft="@+id/button14"
+        android:layout_alignStart="@+id/button14"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sundayServiceBtn14"
+        android:id="@+id/button14"
+        android:onClick="OnClickTeluguSevice"
+        android:background="#95b8ff"
+        android:layout_above="@+id/button6"
+        android:layout_marginTop="2dp"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sundayServiceBtn15"
+        android:id="@+id/button15"
+        android:onClick="OnClickPastorateCommitteeListener"
+        android:background="#95b8ff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="2dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#95b8ff"
+        android:text="ABOUT CHURCH"
+        android:id="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="OnClickChurchHistory"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#95b8ff"
+        android:text="YOUTH FELLOWSHIP"
+        android:id="@+id/button6"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="OnClickYouthListener"
+        android:textSize="15sp" />
+
+</RelativeLayout>
